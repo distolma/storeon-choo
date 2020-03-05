@@ -1,0 +1,65 @@
+{
+  "name": "storeon-choo",
+  "version": "0.1.0",
+  "description": "A tiny (81 bytes) connector for Storeon and Choo",
+  "main": "index.js",
+  "repository": "git@github.com:distolma/storeon-choo.git",
+  "author": "Dmytro Mostovyi <djmakaron2009@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel serve example/index.html --open",
+    "lint": "eslint ./*.js",
+    "test": "jest --coverage && yarn lint && size-limit"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "81 B"
+    }
+  ],
+  "eslintConfig": {
+    "extends": "@logux/eslint-config",
+    "rules": {
+      "node/no-unpublished-require": "off",
+      "func-style": "off"
+    }
+  },
+  "eslintIgnore": [
+    "node_modules"
+  ],
+  "peerDependencies": {
+    "choo": "^7.0.0",
+    "storeon": "^1.0.0"
+  },
+  "devDependencies": {
+    "@logux/eslint-config": "^36.0.0",
+    "@size-limit/preset-small-lib": "^4.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^16.1.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.0.8",
+    "size-limit": "^4.0.2",
+    "storeon": "^1.0.0"
+  }
+}
