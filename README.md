@@ -56,7 +56,7 @@ app.route('/', require('./views/main'))
 module.exports = app.mount('body')
 ```
 
-Emitting `@dispatch` event with payload (like `[event, data]`) you dispatch `storeon` event. All states located in `state.storeon` property.
+Emitting `@dispatch` event with payload (like `[event, data]`) you will dispatch `storeon` event. All states are located in `state.storeon` property.
 
 #### `main.js`
 
