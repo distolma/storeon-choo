@@ -59,6 +59,7 @@
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
+    "nanobus": "^4.4.0",
     "size-limit": "^4.0.2",
     "storeon": "^1.0.0"
   }

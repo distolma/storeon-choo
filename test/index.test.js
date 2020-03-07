@@ -1,5 +1,5 @@
 const createStore = require('storeon')
-const EventEmitter = require('events')
+const Nanobus = require('nanobus')
 
 const storeonMiddleware = require('../index')
 
@@ -11,7 +11,7 @@ function storeFactory () {
 
   let store = createStore([counter])
   let state = {}
-  let emitter = new EventEmitter()
+  let emitter = new Nanobus()
 
   jest.spyOn(store, 'dispatch')
   jest.spyOn(emitter, 'emit')
