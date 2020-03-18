@@ -40,27 +40,27 @@
     "node_modules"
   ],
   "peerDependencies": {
-    "choo": "^7.0.0",
-    "storeon": "^1.0.0"
+    "choo": "^7.1.0",
+    "storeon": "^2.0.1"
   },
   "devDependencies": {
-    "@logux/eslint-config": "^36.0.0",
-    "@size-limit/preset-small-lib": "^4.0.2",
+    "@logux/eslint-config": "^36.1.1",
+    "@size-limit/preset-small-lib": "^4.4.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.8.1",
+    "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prefer-let": "^1.0.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-unicorn": "^16.1.1",
+    "eslint-plugin-unicorn": "^17.2.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
     "nanobus": "^4.4.0",
-    "size-limit": "^4.0.2",
-    "storeon": "^1.0.0"
+    "size-limit": "^4.4.0",
+    "storeon": "^2.0.1"
   }
 }

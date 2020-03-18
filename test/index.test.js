@@ -1,4 +1,4 @@
-const createStore = require('storeon')
+const { createStoreon } = require('storeon')
 const Nanobus = require('nanobus')
 
 const storeonMiddleware = require('../index')
@@ -9,7 +9,7 @@ function storeFactory () {
     store.on('inc', ({ count }) => ({ count: count + 1 }))
   }
 
-  let store = createStore([counter])
+  let store = createStoreon([counter])
   let state = {}
   let emitter = new Nanobus()
 
