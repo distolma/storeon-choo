@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A tiny (81 bytes) connector for Storeon and Choo",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "git@github.com:distolma/storeon-choo.git",
   "author": "Dmytro Mostovyi <djmakaron2009@gmail.com>",
   "license": "MIT",
@@ -46,6 +47,7 @@
   "devDependencies": {
     "@logux/eslint-config": "^36.1.1",
     "@size-limit/preset-small-lib": "^4.4.0",
+    "dual-publish": "^0.5.2",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
