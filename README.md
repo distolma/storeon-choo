@@ -15,7 +15,7 @@ Read more about Storeon [article].
 [tools]: https://github.com/storeon/storeon#tools
 [Choo]: https://github.com/choojs/choo
 [size limit]: https://github.com/ai/size-limit
-[demo]: https://codesandbox.io/s/admiring-beaver-edi8m
+[demo]: https://codesandbox.io/s/storeon-choo-ncj6k
 [article]: https://evilmartians.com/chronicles/storeon-redux-in-173-bytes
 
 ## Install
