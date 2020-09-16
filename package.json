@@ -64,6 +64,6 @@
     "lint-staged": "^10.2.11",
     "nanobus": "^4.4.0",
     "size-limit": "^4.5.1",
-    "storeon": "^2.0.1"
+    "storeon": "^3.0.3"
   }
 }
