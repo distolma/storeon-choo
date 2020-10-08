@@ -7409,10 +7409,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-storeon@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/storeon/-/storeon-2.0.1.tgz#dee63b7a099eed285c13677c8b6421d6a35b6ffc"
-  integrity sha512-CdwRdt+LysuOip4IzIcV0IwbkoS7vFp+5U05xcuKYNPNPGzJ+4ZCDYlUZb1UzzHHnx9CMnAGoPz9t3HVlnAKVw==
+storeon@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/storeon/-/storeon-3.0.4.tgz#8f8b1dcb136368f9ed4548f755142553a27232a7"
+  integrity sha512-HywDfpxuQhccknxXo8EyiiZmOvH4MqkrJfNS0K1x+funv0pQKefZOGyD78HjFh/BUjQe9BnJ//oB7SD2J4Vy6A==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
